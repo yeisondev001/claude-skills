@@ -1,0 +1,17 @@
+{
+  "colores": {
+    "fondo": "#efefea",
+    "tinta": "#0c1014",
+    "verde": "#007656",
+    "menta": "#58caad",
+    "rojo": "#8a2820",
+    "crema": "#f3e6dc",
+    "amarillo": "#f6e5b8"
+  },
+  "fuentes": {
+    "titulos": "Anton",
+    "subtitulos": "Barlow Condensed",
+    "ui": "Inter",
+    "mono": "JetBrains Mono"
+  }
+}

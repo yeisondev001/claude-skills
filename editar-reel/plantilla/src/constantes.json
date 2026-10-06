@@ -1,0 +1,34 @@
+{
+  "fps": 30,
+  "ancho": 1080,
+  "alto": 1920,
+  "zonaSegura": { "arriba": 250, "abajo": 420, "izquierda": 60, "derecha": 150, "derechaDesde": 900 },
+  "cortes": { "silencioMinimo": 0.3, "aire": 0.1, "umbralDb": -35 },
+  "cara": { "intervalo": 0.2, "suavizado": 0.5 },
+  "camara": {
+    "zoomBase": 1.0,
+    "zoomsPorCorte": [1.0, 1.07],
+    "minimoEntreCambios": 2.5,
+    "transicionMs": 260,
+    "filtro": "contrast(1.08) saturate(0.94) brightness(0.96)",
+    "vineta": 0.45
+  },
+  "subtitulos": {
+    "tamano": 66,
+    "anchoMax": 760,
+    "palabrasPorBloque": 4,
+    "pausaCorteMs": 400,
+    "separacionCara": 36,
+    "altoBloque": 170
+  },
+  "animaciones": {
+    "entradaMs": 220,
+    "salidaMs": 180,
+    "capitulo": { "barridoMs": 380, "salidaMs": 360 },
+    "cta": { "retrasoMs": 350, "msPorLetra": 90 },
+    "cifra": { "cuentaMs": 900, "ticCadaMs": 75 }
+  },
+  "musica": { "bpm": 96, "volumenHablando": 0.06, "volumenSilencio": 0.11 },
+  "sfx": { "volumen": 0.55 },
+  "loudness": { "lufs": -14, "picoDb": -1.0, "rango": 11 }
+}
